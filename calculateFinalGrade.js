@@ -6,4 +6,11 @@ import { calculateGrade } from './calculateGrade.js';
 
 export function calculateFinalGrade(score1, score2) {
   // TODO - fill in function
+
+  return ((score1 + score2) / 2);
+
 }
+
+var finalGrade = calculateFinalGrade(98, 100);
+
+console.log(calculateGrade(finalGrade));
